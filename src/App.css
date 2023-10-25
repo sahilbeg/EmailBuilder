@@ -1,0 +1,589 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400);
+
+.navigation {
+  width: 100%;
+  background-color: rgb(40, 42, 54);
+}
+
+.logoutIcon{
+  margin: 0;
+  width: 30px;
+  float: left;
+  border: 1px solid #00ABF0;
+  border-radius: 50px;
+}
+
+.logoutIcon:hover{
+  box-shadow: 0px 0px 20px 0px #00ABF0;
+}
+
+.button {
+	text-decoration: none;
+	float: right;
+  padding: 12px;
+  margin: 10px 40px 10px 0px;
+  text-align: left;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  width: 40px;
+  background-color: rgb(40, 42, 54);
+  overflow: hidden
+}
+
+.App {
+  text-align: center;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* My css begin here!! */
+
+.header {
+  background-color: rgb(40, 42, 54);
+  color: #fff;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.body {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+  height: calc(104vh - 100px); /* Set height to remaining height of screen */
+  background-color: #FFFFFF;
+}
+
+.component_nav{
+  width: 20%;
+  background-color: rgb(40, 42, 54);
+}
+
+.edit_nav {
+  width: 30%;
+  background-color: rgb(40, 42, 54);
+}
+
+.email_body {
+  width: 50%;
+  background-color: #d0d2d2;
+}
+
+.emailLayout{
+  max-width: 600px;
+  width: 600px;
+  background-color: #ffffff;
+  height: calc(97vh - 110px);
+  margin: auto;
+  overflow-y: scroll;
+}
+
+.email_layout_change{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: rgb(40, 42, 54);
+  height: 60px;
+  border-top: 1px solid rgba(128, 128, 128, 0.9);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.9);
+  border-left: 1px solid rgba(128, 128, 128, 0.9);
+  border-right: 1px solid rgba(128, 128, 128, 0.9);
+  margin: auto;
+  gap: 0px 30px;
+}
+
+.component_heading{
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+.comp_head{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.comp_head_1, .comp_head_2, .comp_head_1L{
+  width: 50%;
+  text-align: center;
+  padding: 20px 30px;
+  border-bottom: 2px solid grey;
+  cursor: pointer;
+}
+
+
+.comp_head_1L{
+  border-left: 1px solid grey;
+}
+
+.Edit_head_1, .Edit_head_2{
+  width: 50%;
+  text-align: center;
+  padding: 20px 30px;
+}
+
+
+.LayoutHeading{
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+
+.card_components {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 0px 20px 20px;
+  padding: 20px;
+  gap: 0px 30px;
+
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  padding: 20px 10px;
+  text-align: center;
+  min-width: 40px;
+  margin-bottom: 20px;
+  color: #676767;
+  cursor: pointer;
+}
+.Maincard {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  min-width: 40px;
+  margin-bottom: 20px;
+  color: #676767;
+}
+.card:hover{
+  box-shadow: 0px 0px 20px 0px #00ABF0;
+}
+
+.icon{
+  width: 100%;
+  height: 5vh;
+}
+
+.Block_icon{
+  width: 40px;
+}
+
+p{
+  margin: 0;
+}
+
+table{
+  width: 100%;
+  border: 0px;
+}
+
+.cardOneTd, .cardTwoTd, .cardThreeTd, .MaincardOneTd{
+  width: 100%;
+  height: 10px;
+  border: 1px solid black;
+}
+
+
+
+.cardOneTd{
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.MaincardOneTd{
+  height: 20px;
+}
+
+.cardTwoTd{
+  width: 50%;
+}
+
+.cardThreeTd{
+  width: 33%;
+}
+
+
+.code_layout{
+  background-color: rgb(40, 42, 54);
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  padding: 0px 10px;
+  gap: 30px;
+  height: calc(90vh - 200px);
+  color: #FFFFFF;
+  overflow-y: scroll;
+  border: none !important;
+  outline: none !important;
+}
+
+code{
+  white-space: pre-wrap !important;
+  word-wrap: break-word;
+  word-break: break-all;
+  width:95%;
+}
+
+.style_layout{
+  width: 100%;
+  background-color: rgb(40, 42, 54);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  height: calc(108vh - 200px);
+  overflow-y: scroll;
+}
+
+
+/* Add the blue border to the selected div */
+.selected {
+  border-color: blue;
+}
+
+
+pre.code {
+  padding: 1em;
+  background-color: #282c34;
+  color: white;
+}
+
+pre code {
+  font-family: "Fira Code", monospace;
+}
+
+.codeStyle{
+  border: none !important;
+  width: 100%;
+  outline: none !important;
+}
+
+
+.DesktopIcon, .MobileIcon{
+  width: 50px;
+  height: 50px;
+  background-color: rgb(40, 42, 54);
+  padding: 0px;
+}
+
+.DesktopIcon{
+  border: 1px solid #00ABF0;
+  border-radius: 5px;
+}
+
+.DesktopIcon:hover, .MobileIcon:hover{
+  box-shadow: 0px 0px 20px 0px #00ABF0;
+  border: 1px solid #00ABF0;
+  border-radius: 5px;
+}
+
+
+.selected{
+  width: 50px;
+  border: 1px solid #00ABF0;
+}
+
+
+.screenSizeLogos{
+  float: left;
+  display: flex;
+  width: 50%;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.saveLogo{
+  float: left;
+  display: flex;
+  width: 95%;
+  gap: 20px;
+  height: 5vh;;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: rgb(40, 42, 54);
+  position: sticky;
+  padding-top: 20px;
+  padding-right:20px;
+  padding-bottom:20px;
+}
+
+
+.saveimage:hover{
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px 0px #00ABF0;
+}
+
+section {
+	/* background: #dce7eb; */
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+  margin-top: 15px;
+}
+
+
+
+
+.save {
+	position: relative;
+	padding: 13px 30px;
+	/* box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.4); */
+	color: #FFFFFF;
+  font-family: Roboto, "Helvetica Neue", sans-serif !important;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font: 700 12px consolas;
+	overflow: hidden;
+}
+
+.save span:nth-child(1) {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 3px;
+	border-radius:100px;
+	background: linear-gradient(to right, #171618, #FFFFFF);
+	animation: animate1 2s linear infinite;
+}
+
+
+@keyframes animate1 {
+	0% {
+		transform: translateX(-100%);
+	}
+	100% {
+		transform: translateX(100%);
+	}
+}
+
+.save span:nth-child(2) {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 3px;
+	border-radius:100px;
+	background: linear-gradient(to bottom, #171618, #FFFFFF);
+	animation: animate2 2s linear infinite;
+	animation-delay: 1s;
+}
+@keyframes animate2 {
+	0% {
+		transform: translateY(-100%);
+	}
+	100% {
+		transform: translateY(100%);
+	}
+}
+
+.save span:nth-child(3) {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 3px;
+	border-radius:100px;
+	background: linear-gradient(to left, #171618, #FFFFFF);
+	animation: animate3 2s linear infinite;
+}
+
+@keyframes animate3 {
+	0% {
+		transform: translateX(100%);
+	}
+	100% {
+		transform: translateX(-100%);
+	}
+}
+
+.save span:nth-child(4) {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 3px;
+	border-radius:100px;
+	background: linear-gradient(to top, #171618, #FFFFFF);
+	animation: animate4 2s linear infinite;
+	border-radius:100px;
+	animation-delay: 1s;
+}
+
+@keyframes animate4 {
+	0% {
+		transform: translateY(100%);
+	}
+	100% {
+		transform: translateY(-100%);
+	}
+}
+
+
+
+
+
+#wrap {
+  text-align: right;
+}
+
+.btn-slide2 {
+  position: relative;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  line-height: 50px;
+  padding: 0;
+  border-radius: 50px;
+  background: #fdfdfd;
+  border: 2px solid #0099cc;
+  margin: 10px;
+  transition: .5s;
+}
+
+.btn-slide2 {
+  border: 2px solid #0099cc;
+}
+
+
+.btn-slide2:hover {
+  background-color: #0099cc;
+}
+
+.btn-slide2:hover span.circle2 {
+  left: 100%;
+  margin-left: -45px;
+  background-color: #fdfdfd;
+  color: #0099cc;
+}
+
+.btn-slide2:hover span.circle2 {
+  color: #0099cc;
+}
+
+.btn-slide2:hover span.title2 {
+  left: 40px;
+  opacity: 0;
+}
+
+.btn-slide2:hover span.title-hover2 {
+  opacity: 1;
+  left: 15px;
+}
+
+.btn-slide2 span.circle2 {
+  display: block;
+  background-color: #0099cc;
+  color: #fff;
+  position: absolute;
+  float: left;
+  margin: 10px 15px;
+  line-height: 42px;
+  height: 20px;
+  width: 20px;
+  top: 0;
+  left: 0;
+  transition: .5s;
+  border-radius: 50%;
+}
+
+.btn-slide2 span.circle2 {
+  background-color: #0099cc;
+}
+
+.btn-slide2 span.title2,
+.btn-slide2 span.title-hover2 {
+  position: absolute;
+  left: 90px;
+  text-align: center;
+  margin: -6px auto;
+  font-size: 16px;
+  font-weight: bold;
+  color: #30abd5;
+  transition: .5s;
+}
+
+.btn-slide2 span.title2,
+.btn-slide2 span.title-hover2 {
+  color: #0099cc;
+  left: 50px;
+}
+
+.btn-slide2 span.title-hover2 {
+  left: 50px;
+  opacity: 0;
+}
+
+.btn-slide2 span.title-hover2 {
+  color: #fff;
+}
+
+
+
+.code{
+  width:100%;
+}
