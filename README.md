@@ -68,3 +68,29 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# Drag-and-Drop Email Creator
+
+![Project Image](project_image_url_here)
+
+## Overview
+
+This innovative application empowers users to create personalized emails using a user-friendly drag-and-drop approach. It is developed using JavaScript within the React framework and offers intuitive features for customizing email layouts and designs. 
+
+### Key Features
+
+- **Drag-and-Drop Email Builder**: We've implemented an intuitive drag-and-drop functionality that allows users to effortlessly customize the layout and design of their emails.
+
+- **Rich Content Integration**: This application integrates various features, including adding images, formatting text, and including interactive elements, enhancing the overall user experience and making it easy to create engaging emails.
+
+- **Responsive Design**: Our application is designed to ensure responsiveness and cross-browser compatibility, allowing users to create emails seamlessly across different devices and platforms.
+
+## Usage
+
+Here's how to get started with the Drag-and-Drop Email Creator:
+
+1. Clone this repository to your local machine.
+
+   ```bash
+   git clone https://github.com/sahilbeg/drag-and-drop-email-creator.git
